@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E21F9341EAE7D130022DEF4 /* UtilityMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21F9331EAE7D130022DEF4 /* UtilityMethods.swift */; };
+		7E4A6AEB1EAD368100587303 /* PonyUpDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4A6AEA1EAD368100587303 /* PonyUpDataManager.swift */; };
+		7E547D4F1E96A77A001A68AC /* BettorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E547D4E1E96A77A001A68AC /* BettorsViewController.swift */; };
+		7E547D521E96AA86001A68AC /* BettorsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E547D511E96AA86001A68AC /* BettorsDataSource.swift */; };
+		7E547D541E96C1E9001A68AC /* BettorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E547D531E96C1E9001A68AC /* BettorStore.swift */; };
+		7E547D5A1E96D559001A68AC /* CreateNewBettorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E547D591E96D559001A68AC /* CreateNewBettorViewController.swift */; };
+		7E7F47A81E67765400722E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47A71E67765400722E05 /* AppDelegate.swift */; };
+		7E7F47AD1E67765400722E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7F47AB1E67765400722E05 /* Main.storyboard */; };
+		7E7F47B01E67765400722E05 /* PonyUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47AE1E67765400722E05 /* PonyUp.xcdatamodeld */; };
+		7E7F47B21E67765400722E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7F47B11E67765400722E05 /* Assets.xcassets */; };
+		7E7F47B51E67765400722E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7F47B31E67765400722E05 /* LaunchScreen.storyboard */; };
+		7E7F47C01E67765400722E05 /* PonyUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47BF1E67765400722E05 /* PonyUpTests.swift */; };
+		7E7F47CB1E67765400722E05 /* PonyUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47CA1E67765400722E05 /* PonyUpUITests.swift */; };
+		7E7F47DA1E6776B600722E05 /* MakeBetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47D91E6776B600722E05 /* MakeBetViewController.swift */; };
+		7E7F47DC1E6776E600722E05 /* BetDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47DB1E6776E600722E05 /* BetDataSource.swift */; };
+		7E7F47DE1E6776F000722E05 /* BetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47DD1E6776F000722E05 /* BetCollectionViewCell.swift */; };
+		7E7F47E11E68BE8400722E05 /* RacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47E01E68BE8400722E05 /* RacesViewController.swift */; };
+		7E7F47E31E69081B00722E05 /* Bet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47E21E69081B00722E05 /* Bet.swift */; };
+		7E7F47E71E69C50400722E05 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47E61E69C50400722E05 /* Race.swift */; };
+		7E7F47EB1E69C8BC00722E05 /* Horse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47EA1E69C8BC00722E05 /* Horse.swift */; };
+		7E7F47EE1E69CAA100722E05 /* Payouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47ED1E69CAA100722E05 /* Payouts.swift */; };
+		7E7F47F01E69CD2500722E05 /* Bettor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47EF1E69CD2500722E05 /* Bettor.swift */; };
+		7E7F47F31E6AFC9D00722E05 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47F21E6AFC9D00722E05 /* Session.swift */; };
+		7E7F47F91E6E15B900722E05 /* RacesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47F81E6E15B900722E05 /* RacesDataSource.swift */; };
+		7E7F47FD1E7079ED00722E05 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47FC1E7079ED00722E05 /* SessionStore.swift */; };
+		7E7F48001E70944300722E05 /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F47FF1E70944300722E05 /* SessionsViewController.swift */; };
+		7E7F48031E7094ED00722E05 /* SessionsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F48021E7094ED00722E05 /* SessionsDataSource.swift */; };
+		7E7F48051E70A8B200722E05 /* CreateNewSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F48041E70A8B200722E05 /* CreateNewSessionViewController.swift */; };
+		7E7F48071E75E48B00722E05 /* PonyUpTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F48061E75E48B00722E05 /* PonyUpTabController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E7F47BC1E67765400722E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7F479C1E67765300722E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7F47A31E67765400722E05;
+			remoteInfo = PonyUp;
+		};
+		7E7F47C71E67765400722E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7F479C1E67765300722E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7F47A31E67765400722E05;
+			remoteInfo = PonyUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E21F9331EAE7D130022DEF4 /* UtilityMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityMethods.swift; sourceTree = "<group>"; };
+		7E4A6AEA1EAD368100587303 /* PonyUpDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PonyUpDataManager.swift; sourceTree = "<group>"; };
+		7E547D4E1E96A77A001A68AC /* BettorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BettorsViewController.swift; sourceTree = "<group>"; };
+		7E547D511E96AA86001A68AC /* BettorsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BettorsDataSource.swift; sourceTree = "<group>"; };
+		7E547D531E96C1E9001A68AC /* BettorStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BettorStore.swift; sourceTree = "<group>"; };
+		7E547D591E96D559001A68AC /* CreateNewBettorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewBettorViewController.swift; sourceTree = "<group>"; };
+		7E7F47A41E67765400722E05 /* PonyUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PonyUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7F47A71E67765400722E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E7F47AC1E67765400722E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E7F47AF1E67765400722E05 /* PonyUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PonyUp.xcdatamodel; sourceTree = "<group>"; };
+		7E7F47B11E67765400722E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E7F47B41E67765400722E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E7F47B61E67765400722E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7F47BB1E67765400722E05 /* PonyUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7F47BF1E67765400722E05 /* PonyUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyUpTests.swift; sourceTree = "<group>"; };
+		7E7F47C11E67765400722E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7F47C61E67765400722E05 /* PonyUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7F47CA1E67765400722E05 /* PonyUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyUpUITests.swift; sourceTree = "<group>"; };
+		7E7F47CC1E67765400722E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7F47D91E6776B600722E05 /* MakeBetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeBetViewController.swift; sourceTree = "<group>"; };
+		7E7F47DB1E6776E600722E05 /* BetDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetDataSource.swift; sourceTree = "<group>"; };
+		7E7F47DD1E6776F000722E05 /* BetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetCollectionViewCell.swift; sourceTree = "<group>"; };
+		7E7F47E01E68BE8400722E05 /* RacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RacesViewController.swift; sourceTree = "<group>"; };
+		7E7F47E21E69081B00722E05 /* Bet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bet.swift; sourceTree = "<group>"; };
+		7E7F47E61E69C50400722E05 /* Race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		7E7F47EA1E69C8BC00722E05 /* Horse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Horse.swift; sourceTree = "<group>"; };
+		7E7F47ED1E69CAA100722E05 /* Payouts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payouts.swift; sourceTree = "<group>"; };
+		7E7F47EF1E69CD2500722E05 /* Bettor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bettor.swift; sourceTree = "<group>"; };
+		7E7F47F21E6AFC9D00722E05 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		7E7F47F81E6E15B900722E05 /* RacesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RacesDataSource.swift; sourceTree = "<group>"; };
+		7E7F47FC1E7079ED00722E05 /* SessionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		7E7F47FF1E70944300722E05 /* SessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
+		7E7F48021E7094ED00722E05 /* SessionsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionsDataSource.swift; sourceTree = "<group>"; };
+		7E7F48041E70A8B200722E05 /* CreateNewSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewSessionViewController.swift; sourceTree = "<group>"; };
+		7E7F48061E75E48B00722E05 /* PonyUpTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PonyUpTabController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E7F47A11E67765400722E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F47B81E67765400722E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F47C31E67765400722E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E547D501E96A7A8001A68AC /* BettorScene */ = {
+			isa = PBXGroup;
+			children = (
+				7E547D4E1E96A77A001A68AC /* BettorsViewController.swift */,
+				7E547D511E96AA86001A68AC /* BettorsDataSource.swift */,
+				7E547D591E96D559001A68AC /* CreateNewBettorViewController.swift */,
+			);
+			name = BettorScene;
+			sourceTree = "<group>";
+		};
+		7E7F479B1E67765300722E05 = {
+			isa = PBXGroup;
+			children = (
+				7E7F47A61E67765400722E05 /* PonyUp */,
+				7E7F47BE1E67765400722E05 /* PonyUpTests */,
+				7E7F47C91E67765400722E05 /* PonyUpUITests */,
+				7E7F47A51E67765400722E05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7F47A51E67765400722E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F47A41E67765400722E05 /* PonyUp.app */,
+				7E7F47BB1E67765400722E05 /* PonyUpTests.xctest */,
+				7E7F47C61E67765400722E05 /* PonyUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E7F47A61E67765400722E05 /* PonyUp */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F47AB1E67765400722E05 /* Main.storyboard */,
+				7E7F47A71E67765400722E05 /* AppDelegate.swift */,
+				7E7F48061E75E48B00722E05 /* PonyUpTabController.swift */,
+				7E4A6AEA1EAD368100587303 /* PonyUpDataManager.swift */,
+				7E21F9331EAE7D130022DEF4 /* UtilityMethods.swift */,
+				7E7F48011E70944B00722E05 /* SessionsScene */,
+				7E7F47FE1E7091C100722E05 /* SessionModel */,
+				7E7F47F41E6B046000722E05 /* RacesScene */,
+				7E7F47E81E69C51000722E05 /* RaceModel */,
+				7E547D501E96A7A8001A68AC /* BettorScene */,
+				7E7F47F11E69CD2C00722E05 /* BettorModel */,
+				7E7F47E91E69C52900722E05 /* BetModel */,
+				7E7F47DF1E677A4200722E05 /* Make Bet */,
+				7E7F47AE1E67765400722E05 /* PonyUp.xcdatamodeld */,
+				7E7F47D81E67767500722E05 /* Supporting Files */,
+			);
+			path = PonyUp;
+			sourceTree = "<group>";
+		};
+		7E7F47BE1E67765400722E05 /* PonyUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F47BF1E67765400722E05 /* PonyUpTests.swift */,
+				7E7F47C11E67765400722E05 /* Info.plist */,
+			);
+			path = PonyUpTests;
+			sourceTree = "<group>";
+		};
+		7E7F47C91E67765400722E05 /* PonyUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F47CA1E67765400722E05 /* PonyUpUITests.swift */,
+				7E7F47CC1E67765400722E05 /* Info.plist */,
+			);
+			path = PonyUpUITests;
+			sourceTree = "<group>";
+		};
+		7E7F47D81E67767500722E05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F47B11E67765400722E05 /* Assets.xcassets */,
+				7E7F47B31E67765400722E05 /* LaunchScreen.storyboard */,
+				7E7F47B61E67765400722E05 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E7F47DF1E677A4200722E05 /* Make Bet */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F47D91E6776B600722E05 /* MakeBetViewController.swift */,
+				7E7F47DB1E6776E600722E05 /* BetDataSource.swift */,
+				7E7F47DD1E6776F000722E05 /* BetCollectionViewCell.swift */,
+			);
+			name = "Make Bet";
+			sourceTree = "<group>";
+		};
+		7E7F47E81E69C51000722E05 /* RaceModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F47E61E69C50400722E05 /* Race.swift */,
+				7E7F47EA1E69C8BC00722E05 /* Horse.swift */,
+				7E7F47ED1E69CAA100722E05 /* Payouts.swift */,
+			);
+			name = RaceModel;
+			sourceTree = "<group>";
+		};
+		7E7F47E91E69C52900722E05 /* BetModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F47E21E69081B00722E05 /* Bet.swift */,
+			);
+			name = BetModel;
+			sourceTree = "<group>";
+		};
+		7E7F47F11E69CD2C00722E05 /* BettorModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E547D531E96C1E9001A68AC /* BettorStore.swift */,
+				7E7F47EF1E69CD2500722E05 /* Bettor.swift */,
+			);
+			name = BettorModel;
+			sourceTree = "<group>";
+		};
+		7E7F47F41E6B046000722E05 /* RacesScene */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F47E01E68BE8400722E05 /* RacesViewController.swift */,
+				7E7F47F81E6E15B900722E05 /* RacesDataSource.swift */,
+			);
+			name = RacesScene;
+			sourceTree = "<group>";
+		};
+		7E7F47FE1E7091C100722E05 /* SessionModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F47FC1E7079ED00722E05 /* SessionStore.swift */,
+				7E7F47F21E6AFC9D00722E05 /* Session.swift */,
+			);
+			name = SessionModel;
+			sourceTree = "<group>";
+		};
+		7E7F48011E70944B00722E05 /* SessionsScene */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F47FF1E70944300722E05 /* SessionsViewController.swift */,
+				7E7F48021E7094ED00722E05 /* SessionsDataSource.swift */,
+				7E7F48041E70A8B200722E05 /* CreateNewSessionViewController.swift */,
+			);
+			name = SessionsScene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E7F47A31E67765400722E05 /* PonyUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7F47CF1E67765400722E05 /* Build configuration list for PBXNativeTarget "PonyUp" */;
+			buildPhases = (
+				7E7F47A01E67765400722E05 /* Sources */,
+				7E7F47A11E67765400722E05 /* Frameworks */,
+				7E7F47A21E67765400722E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PonyUp;
+			productName = PonyUp;
+			productReference = 7E7F47A41E67765400722E05 /* PonyUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E7F47BA1E67765400722E05 /* PonyUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7F47D21E67765400722E05 /* Build configuration list for PBXNativeTarget "PonyUpTests" */;
+			buildPhases = (
+				7E7F47B71E67765400722E05 /* Sources */,
+				7E7F47B81E67765400722E05 /* Frameworks */,
+				7E7F47B91E67765400722E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7F47BD1E67765400722E05 /* PBXTargetDependency */,
+			);
+			name = PonyUpTests;
+			productName = PonyUpTests;
+			productReference = 7E7F47BB1E67765400722E05 /* PonyUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E7F47C51E67765400722E05 /* PonyUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7F47D51E67765400722E05 /* Build configuration list for PBXNativeTarget "PonyUpUITests" */;
+			buildPhases = (
+				7E7F47C21E67765400722E05 /* Sources */,
+				7E7F47C31E67765400722E05 /* Frameworks */,
+				7E7F47C41E67765400722E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7F47C81E67765400722E05 /* PBXTargetDependency */,
+			);
+			name = PonyUpUITests;
+			productName = PonyUpUITests;
+			productReference = 7E7F47C61E67765400722E05 /* PonyUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7F479C1E67765300722E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ballgeier;
+				TargetAttributes = {
+					7E7F47A31E67765400722E05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TAFA3L729C;
+						ProvisioningStyle = Automatic;
+					};
+					7E7F47BA1E67765400722E05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TAFA3L729C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E7F47A31E67765400722E05;
+					};
+					7E7F47C51E67765400722E05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TAFA3L729C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E7F47A31E67765400722E05;
+					};
+				};
+			};
+			buildConfigurationList = 7E7F479F1E67765300722E05 /* Build configuration list for PBXProject "PonyUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E7F479B1E67765300722E05;
+			productRefGroup = 7E7F47A51E67765400722E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E7F47A31E67765400722E05 /* PonyUp */,
+				7E7F47BA1E67765400722E05 /* PonyUpTests */,
+				7E7F47C51E67765400722E05 /* PonyUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E7F47A21E67765400722E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7F47B51E67765400722E05 /* LaunchScreen.storyboard in Resources */,
+				7E7F47B21E67765400722E05 /* Assets.xcassets in Resources */,
+				7E7F47AD1E67765400722E05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F47B91E67765400722E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F47C41E67765400722E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E7F47A01E67765400722E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E547D541E96C1E9001A68AC /* BettorStore.swift in Sources */,
+				7E547D521E96AA86001A68AC /* BettorsDataSource.swift in Sources */,
+				7E7F47E71E69C50400722E05 /* Race.swift in Sources */,
+				7E7F47DC1E6776E600722E05 /* BetDataSource.swift in Sources */,
+				7E547D4F1E96A77A001A68AC /* BettorsViewController.swift in Sources */,
+				7E7F47E11E68BE8400722E05 /* RacesViewController.swift in Sources */,
+				7E7F47EE1E69CAA100722E05 /* Payouts.swift in Sources */,
+				7E7F48071E75E48B00722E05 /* PonyUpTabController.swift in Sources */,
+				7E7F47A81E67765400722E05 /* AppDelegate.swift in Sources */,
+				7E7F47F91E6E15B900722E05 /* RacesDataSource.swift in Sources */,
+				7E7F47B01E67765400722E05 /* PonyUp.xcdatamodeld in Sources */,
+				7E7F47DE1E6776F000722E05 /* BetCollectionViewCell.swift in Sources */,
+				7E7F47FD1E7079ED00722E05 /* SessionStore.swift in Sources */,
+				7E7F47EB1E69C8BC00722E05 /* Horse.swift in Sources */,
+				7E7F48001E70944300722E05 /* SessionsViewController.swift in Sources */,
+				7E7F47F31E6AFC9D00722E05 /* Session.swift in Sources */,
+				7E7F47DA1E6776B600722E05 /* MakeBetViewController.swift in Sources */,
+				7E547D5A1E96D559001A68AC /* CreateNewBettorViewController.swift in Sources */,
+				7E7F48031E7094ED00722E05 /* SessionsDataSource.swift in Sources */,
+				7E7F48051E70A8B200722E05 /* CreateNewSessionViewController.swift in Sources */,
+				7E4A6AEB1EAD368100587303 /* PonyUpDataManager.swift in Sources */,
+				7E7F47E31E69081B00722E05 /* Bet.swift in Sources */,
+				7E7F47F01E69CD2500722E05 /* Bettor.swift in Sources */,
+				7E21F9341EAE7D130022DEF4 /* UtilityMethods.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F47B71E67765400722E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7F47C01E67765400722E05 /* PonyUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F47C21E67765400722E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7F47CB1E67765400722E05 /* PonyUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7F47BD1E67765400722E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7F47A31E67765400722E05 /* PonyUp */;
+			targetProxy = 7E7F47BC1E67765400722E05 /* PBXContainerItemProxy */;
+		};
+		7E7F47C81E67765400722E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7F47A31E67765400722E05 /* PonyUp */;
+			targetProxy = 7E7F47C71E67765400722E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E7F47AB1E67765400722E05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7F47AC1E67765400722E05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E7F47B31E67765400722E05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7F47B41E67765400722E05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E7F47CD1E67765400722E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E7F47CE1E67765400722E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E7F47D01E67765400722E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TAFA3L729C;
+				INFOPLIST_FILE = PonyUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ballgeier.PonyUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7E7F47D11E67765400722E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TAFA3L729C;
+				INFOPLIST_FILE = PonyUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ballgeier.PonyUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7E7F47D31E67765400722E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TAFA3L729C;
+				INFOPLIST_FILE = PonyUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ballgeier.PonyUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PonyUp.app/PonyUp";
+			};
+			name = Debug;
+		};
+		7E7F47D41E67765400722E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TAFA3L729C;
+				INFOPLIST_FILE = PonyUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ballgeier.PonyUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PonyUp.app/PonyUp";
+			};
+			name = Release;
+		};
+		7E7F47D61E67765400722E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TAFA3L729C;
+				INFOPLIST_FILE = PonyUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ballgeier.PonyUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PonyUp;
+			};
+			name = Debug;
+		};
+		7E7F47D71E67765400722E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TAFA3L729C;
+				INFOPLIST_FILE = PonyUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ballgeier.PonyUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PonyUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E7F479F1E67765300722E05 /* Build configuration list for PBXProject "PonyUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7F47CD1E67765400722E05 /* Debug */,
+				7E7F47CE1E67765400722E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7F47CF1E67765400722E05 /* Build configuration list for PBXNativeTarget "PonyUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7F47D01E67765400722E05 /* Debug */,
+				7E7F47D11E67765400722E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7F47D21E67765400722E05 /* Build configuration list for PBXNativeTarget "PonyUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7F47D31E67765400722E05 /* Debug */,
+				7E7F47D41E67765400722E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7F47D51E67765400722E05 /* Build configuration list for PBXNativeTarget "PonyUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7F47D61E67765400722E05 /* Debug */,
+				7E7F47D71E67765400722E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E7F47AE1E67765400722E05 /* PonyUp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E7F47AF1E67765400722E05 /* PonyUp.xcdatamodel */,
+			);
+			currentVersion = 7E7F47AF1E67765400722E05 /* PonyUp.xcdatamodel */;
+			path = PonyUp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7E7F479C1E67765300722E05 /* Project object */;
+}
